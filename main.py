@@ -1,6 +1,6 @@
 import asyncio
 import logging
-import sys,os bahodir20
+import sys,os bahodir2010
 
 from aiogram import Bot, Dispatcher, html, F
 from aiogram.client.default import DefaultBotProperties
@@ -94,5 +94,6 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
     asyncio.run(main())
+
 
 
